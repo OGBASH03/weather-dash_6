@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Bootstrap Link-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" 
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./assets/style.css" />
+    <title>Weather Dashboard</title>
+
+</head>
+<body>
+    <header>
+        <h1>Weather Dashboard</h1>
+    </header>
+    <main>
+        <aside>
+            <!--Search Navbar-->
+            <form>
+                <h2>Search for a City:</h2>
+                <input id="city-input" name="city" placeholder="City" type="text" />
+                <button class="btn btn-info" id="search-btn">Search</button>
+            </form>
+            <!--Search History Cities-->
+            <div id="record">
+
+            </div>
+        </aside>
+        <div id="weather-display">
+            <!--Current Weather Table-->
+            <div id="current">
+  
+            </div>
+            <!-- 5-Day Forecast Small Boards-->
+            <div id="forecast">
+                <h3> 5-Day Forecast</h3>
+                <div id="cards">
+                    <div class="card">
+ 
+                    </div>
+                    <div class="card">
+
+                    </div>
+                    <div class="card">
+     
+                    </div>
+                    <div class="card">
+     
+                    </div>
+                    <div class="card">
+     
+                    </div>
+                </div>
+            </div>
+        </div>          
+    </main>
+
+
+
+    <script src="./assets/script.js"></script>
+</body>
+
+</html>
