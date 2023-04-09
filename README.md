@@ -1,63 +1,32 @@
-# README Generator
+# WEATHER DASHBOARD
 
-![badge](https://img.shields.io/badge/license-mit-blue)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## Table-of-Contents
+## Table of Content
+- [Project descrition](#Description)
+- [Usage](#Usage)
+- [Contributing](#Contributing)
+- [Installation](#Installation)
+- [Questions](#Questions)
+- [License](#License)
 
-* [Description](#description)
-* [Installation](#installation)
-* [Usage](#usage)
-* [License](#license)
-* [Contributing](#contributing)
-* [Tests](#tests)
-* [Questions](#questions)
-  
-## [Description](#table-of-contents)
+## Title
+WEATHER DASHBOARD
 
-This Command line application generates a professional README file based on the user's answers to the prompts. This application quickly creates a README for developers' projects, which allows them to spend more time on the application itself. It works by taking the user's inputs, and creating a README using markdown language.
+## Description
+This weather dashboard allows users to search for a city and view its current and future weather conditions. The city is also added to the search history for easy access. The current weather conditions display the city name, date, temperature, humidity, wind speed, and an icon representation of weather conditions. The future weather conditions display a 5-day forecast that includes the date, temperature, wind speed, humidity, and an icon representation of weather conditions. Users can click on a city in the search history to view its current and future weather conditions again.
 
-## [Installation](#table-of-contents)
+![Weather Dash](/assets/pics/weather-dashboard.png "Weather Dashboard")
 
-To install this application, clone the repository's code, open it in VS Code, open the terminal, change your directory to "Develop," and run the following command: "node index.js"
+## Usage
+To use the weather dashboard, simply enter the name of a city in the search bar and click the search button. The current weather conditions for that city will be displayed, as well as a 5-day forecast. Click on a city in the search history to view the weather conditions for that city again.
 
-## [Usage](#table-of-contents)
+## Contribution
+Thank you for your interest in contributing to this project. At the moment, I am not looking for contributions. However, if you have any suggestions or feedback, feel free to reach out to me.
 
-To use this application, open VS Code, open the terminal, change your directory to "Develop," enter the command "node index.js" and answer the prompts.
+## Questions
+https://github.com/OGBASH03
 
-The following video is a demonstration on using this application: [video](https://drive.google.com/file/d/1uW6E1n5qyIglPQ5PBNxqYlur_CRhgJ5e/view)
-  
-
-## [Contributing](#table-of-contents)
-  
-  
-Thank you for your interest contributing; however, right now, I will not be accepting outside contributions.
-      
-
-## [Questions](#table-of-contents)
-
-Please contact me using the following links:
-
-[GitHub](https://github.com/OGBASH03)
-
-## [Licence]
-  MIT License
-
-Copyright (c) 2023 OGBASH03
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+## License
+Licensed under the [MIT](https://opensource.org/licenses/MIT) license
+    
